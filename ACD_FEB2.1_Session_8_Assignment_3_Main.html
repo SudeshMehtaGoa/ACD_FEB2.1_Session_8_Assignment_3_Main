@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hide all the input elements within a form using JQuery</title>
+        <!--JQuery From GOOGLE cdn -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   </head>
+    <body>
+        <div>
+            <p>Hide/Show all the input elements within a form using JQuery</p>
+       </div>
+
+        <form name='demo_form'>
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Submit">
+        </form>
+        <br>
+        <br>
+
+        <!-- functions for buttons to hide and unhide input elements -->
+        <button onclick="hideElements()">Hide INPUT elements</button>
+        <button onclick="showElements()">Show INPUT elements</button>
+       
+        <!-- Inserting external JS file after rendering html-->
+        <script type="text/javascript" src="script.js"></script>  
+    </body>
+</html>
+
